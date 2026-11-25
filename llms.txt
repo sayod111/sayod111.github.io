@@ -1,0 +1,31 @@
+# Sayod 111 Commercial Data Infrastructure
+
+> Pure async HTTP/2 commercial intelligence engines, flat-schema Apify Actors, production n8n templates, and a Cloudflare Streamable HTTP MCP Gateway built by Sayed Ali (Sayod 111). Zero headless browsers, zero residential proxies, strict null integrity.
+
+## Core Links
+- Developer Portal: https://sayod111.github.io/
+- Apify Verified Creator Store: https://apify.com/sayod111
+- Cloudflare MCP Gateway (Streamable HTTP): https://sayod111-mcp-gateway.sayodyalawi.workers.dev/mcp
+- Official MCP Registry (v1.1.0): https://registry.modelcontextprotocol.io/v0.1/servers/io.github.sayod111%2Fsayod111-intelligence-mcp/versions/1.1.0
+- Glama Directory: https://glama.ai/mcp/connectors/io.github.sayod111/sayod111-intelligence-mcp
+- mcpservers.org Directory: https://mcpservers.org/servers/sayod111/sayod111-mcp-servers
+- Free n8n Templates Repository: https://github.com/sayod111/sayod111-n8n-templates
+- Postman Public API Collection: https://www.postman.com/s-ali-mohamed-bh-2153051/sayod-111-intelligence-apis/collection/jkiggeg/sayod-111-commercial-data-infrastructure-apis-v2
+
+## Flagship Pure HTTP/2 Data Engines
+
+The first four entries are product identifiers. Availability depends on the current Apify Store publication status. The healthcare and government offerings are scheduled for verification.
+- [WealthPulse V3.5: SEC Form ADV & RIA Wealth Intelligence](https://apify.com/sayod111/sec-ria-wealthpulse): 25 ranked California rows returned in 3.943 seconds from a feed of 24,124 U.S. SEC filings, with 45 flat columns ($15/1K, weekly AUM diff, client segments, verified Item 11 disclosures, custody, clean domains).
+- [SaaS Trust Center, SOC 2 & AI Subprocessor Audit](https://apify.com/sayod111/saas-trust-center-audit): Bulk DNS + HTTP/2 auditor for Vanta, Drata, SafeBase, Secureframe, AI subprocessors, IAM/SSO, and RFC 9116 security.txt ($15/1K, 22 flat columns).
+- [US Healthcare KOL & NPI Enricher: CMS Payments + Medicare](https://apify.com/sayod111/us-healthcare-kol-cms-enricher): Keyless 3-way federal join across CMS NPPES NPI Registry, CMS Open Payments (Sunshine Act), and CMS Medicare Part B + Revocations ($12/1K, 22 flat columns).
+- [US SLED Government Bids & RFP Monitor](https://apify.com/sayod111/us-sled-gov-bids-monitor): Unified state and municipal RFP/bid feed across 30+ Bonfire PublicPortal agencies and NYC City Record Procurement Socrata API ($8/1K, 22 flat columns).
+- [Shopify Tech Stack, Klaviyo & Ad Pixel Auditor](https://apify.com/sayod111/shopify-klaviyo-pixel-auditor): 85+ apps, Klaviyo retention gaps, and exact Meta/TikTok/Google pixel IDs ($8/1K).
+- [Bulk Domain DMARC, SPF & MX Security Auditor](https://apify.com/sayod111/dmarc-spf-mx-deliverability-auditor): Live DNS email security and deliverability checks for MSPs ($5/1K).
+- [B2B Revenue Intelligence (97-Field Enricher)](https://apify.com/sayod111/b2b-revenue-lead-enricher-mcp): 97 flat ICP columns per domain combining 110+ tech fingerprints, DNS security, and corporate contacts ($5/1K).
+- [B2B Hiring Intent 7-ATS Scanner](https://apify.com/sayod111/b2b-hiring-intent-ats-mcp): Open roles and 6 buying-intent triggers across 7 ATS career boards ($4/1K).
+- [CommercePulse Pro](https://apify.com/sayod111/commercepulse-pro): Multi-platform e-commerce storefront auditor across Shopify, WooCommerce, BigCommerce, Magento, PrestaShop, Salla, and Zid ($3/1K).
+
+## Measured Cloud Efficiency
+- Strictly flat snake_case schemas reduce a 12-step Clay table from 12,000 Actions down to 1,000 Actions per 1,000 rows (91.7% savings).
+- Verified Apify Cloud platform cost: $0.0114 per 1,000 rows for WealthPulse V3.5 and $0.0455 per 1,000 domains for Trust Center Audit, with zero residential proxies.
+- Limited permissions enabled across all Actors for MCP compatibility and x402 agentic readiness.

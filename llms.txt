@@ -14,7 +14,7 @@
 
 ## Flagship Pure HTTP/2 Data Engines
 
-The first four entries are product identifiers. Availability depends on the current Apify Store publication status. The healthcare and government offerings are scheduled for verification.
+The first four entries are product identifiers. Availability depends on the current Apify Store publication status. The healthcare and government Actors each returned 25 rows in verified cloud runs on November 25, 2026. Store publication is queued.
 - [WealthPulse V3.5: SEC Form ADV & RIA Wealth Intelligence](https://apify.com/sayod111/sec-ria-wealthpulse): 25 ranked California rows returned in 3.943 seconds from a feed of 24,124 U.S. SEC filings, with 45 flat columns ($15/1K, weekly AUM diff, client segments, verified Item 11 disclosures, custody, clean domains).
 - [SaaS Trust Center, SOC 2 & AI Subprocessor Audit](https://apify.com/sayod111/saas-trust-center-audit): Bulk DNS + HTTP/2 auditor for Vanta, Drata, SafeBase, Secureframe, AI subprocessors, IAM/SSO, and RFC 9116 security.txt ($15/1K, 22 flat columns).
 - [US Healthcare KOL & NPI Enricher: CMS Payments + Medicare](https://apify.com/sayod111/us-healthcare-kol-cms-enricher): Keyless 3-way federal join across CMS NPPES NPI Registry, CMS Open Payments (Sunshine Act), and CMS Medicare Part B + Revocations ($12/1K, 22 flat columns).

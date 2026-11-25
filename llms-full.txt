@@ -1,0 +1,44 @@
+# Sayod 111 Commercial Data Infrastructure
+
+> Pure async HTTP/2 commercial intelligence APIs, Apify Actors, 11 n8n workflows, and a 10-tool Streamable HTTP MCP Gateway (v1.2.0).
+
+## Core Endpoints
+- Developer Portal: https://sayod111.github.io/
+- Compliance: https://sayod111.github.io/compliance.html
+- Short LLM index: https://sayod111.github.io/llms.txt
+- Apify Store Profile: https://apify.com/sayod111
+- Official MCP Registry (v1.2.0): https://registry.modelcontextprotocol.io/v0.1/servers/io.github.sayod111%2Fsayod111-intelligence-mcp/versions/1.2.0
+- Live MCP Endpoint: https://sayod111-mcp-gateway.sayodyalawi.workers.dev/mcp
+- Free n8n Templates (11 JSON Workflows): https://github.com/sayod111/sayod111-n8n-templates
+
+## Actor catalog
+
+Current Store availability is listed on the Apify Store profile.
+- Shopify Tech Stack, Klaviyo & Ad Pixel Auditor ($8/1K)
+- Bulk Domain DMARC, SPF & MX Security Auditor ($5/1K)
+- B2B Revenue Intelligence (97-Field Enricher) ($5/1K)
+- B2B Hiring Intent 7-ATS Scanner ($4/1K)
+- CommercePulse Pro (Multi-Platform Catalog & Store Audit) ($3/1K)
+- Magento, BigCommerce & PrestaShop Store Intel ($10/1K)
+- Website Tech Stack Detector (110+ Technologies) ($4/1K)
+- Lever, Workable, SmartRecruiters, Recruitee & BreezyHR API ($4/1K)
+- WealthPulse V3.5: US SEC Form ADV & RIA Intelligence ($15/1K)
+- SaaS Trust Center, SOC 2 & AI Subprocessor Audit ($15/1K)
+- US UCC-1 Commercial Secured Loan & Refinance Leads ($15/1K)
+- US Biotech NIH Grants, Clinical Trials & FDA 510(k) ($15/1K)
+- US Healthcare KOL & NPI Enricher (CMS + Medicare) ($12/1K)
+- US SLED Government Bids & Municipal RFP Monitor ($8/1K)
+- B2B Agency & Clay/n8n Account Enricher ($8/1K)
+- WooCommerce Store Audit & Leads ($6/1K)
+- Ad Pixel & Marketing Tag Detector ($6/1K)
+- Ashby & Greenhouse Jobs Scanner ($4/1K)
+- Shopify & WooCommerce Catalog Pricing API ($2/1K)
+
+## Planned Radar API routes
+
+These routes are reserved for the upcoming Radar deployment.
+- GET /v1/public/ria-search?mismatch_only=1&limit=10
+- POST /v1/public/live-audit {"mode":"shopify","domain":"hexclad.com"}
+- GET /v1/radar/ecom_radar?limit=25
+- GET /v1/radar/cyber_grc?limit=25
+- GET /v1/radar/ria_wealth?mismatch_only=1&limit=25

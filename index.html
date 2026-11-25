@@ -64,6 +64,7 @@
       <h1>Pure Async HTTP/2 Commercial Telemetry &amp; Technical Diagnostics APIs</h1>
       <p>Engineered by Sayed Ali (Sayod 111) for revenue operations teams, agencies, Clay and n8n builders, and AI agents. Strict schema validation, flat CRM-ready outputs, and direct HTTP/2 execution without headless browser overhead.</p>
       <div class="cta-row">
+        <a href="https://mcpservers.org/servers/sayod111/sayod111-mcp-servers"><img src="https://mcpservers.org/badge.svg" alt="Listed on mcpservers.org" height="32"></a>
         <a class="btn btn-primary" href="https://apify.com/sayod111" target="_blank">Browse Full Apify Store Suite</a>
         <a class="btn btn-outline" href="https://www.postman.com/s-ali-mohamed-bh-2153051/sayod-111-intelligence-apis/overview" target="_blank">Postman Public Workspace</a>
         <a class="btn btn-outline" href="https://github.com/sayod111/sayod111-mcp-servers" target="_blank">GitHub MCP Server</a>
@@ -77,6 +78,34 @@
       <div class="metric"><strong>Pay-Per-Event</strong><span>Live metered execution with up to 30% tier discounts</span></div>
     </section>
 
+    <section aria-labelledby="flagships">
+      <h2 id="flagships">New on Apify Cloud</h2>
+      <div class="grid-3">
+        <article class="card"><h3>SEC Form ADV · WealthPulse V3.5</h3>
+          <p>Rank advisers by assets under management and compare weekly filings across 45 flat columns. The default 25-row query took 3.943 seconds on Apify Cloud and 7.26 seconds in the local benchmark.</p>
+          <div class="price">$15 / 1,000 firm records</div><small>sec-ria-wealthpulse · Store publication pending</small></article>
+        <article class="card"><h3>SaaS Trust Center Audit</h3>
+          <p>Read public trust center and security disclosures, certifications and subprocessor information across 22 flat columns.</p>
+          <div class="price">$15 / 1,000 audited domains</div><small>saas-trust-center-audit · Store publication pending</small></article>
+      </div>
+    </section>
+    <section aria-labelledby="clay-savings">
+      <h2 id="clay-savings">Clay action comparison</h2>
+      <label for="row-count">Rows to enrich</label>
+      <input id="row-count" type="number" min="1" max="1000000" step="1" value="1000">
+      <p><output id="action-cost" for="row-count" aria-live="polite">12,000 actions across 12 steps · 1,000 single-call actions · 91.7% saved</output></p>
+      <small>Illustrative workflow with one action per step per row. Actual usage depends on your Clay table.</small>
+    </section>
+    <script>
+      const count = document.getElementById('row-count');
+      const cost = document.getElementById('action-cost');
+      count.addEventListener('input', () => {
+        const rows = count.valueAsNumber;
+        cost.textContent = count.value && count.validity.valid
+          ? (rows * 12).toLocaleString('en-US') + ' actions across 12 steps · ' + rows.toLocaleString('en-US') + ' single-call actions · 91.7% saved'
+          : 'Enter a whole number between 1 and 1,000,000.';
+      });
+    </script>
     <h2 id="engines">Live Production Telemetry Suite on Apify Store</h2>
     <div class="grid-3">
       <div class="card">

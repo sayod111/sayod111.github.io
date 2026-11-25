@@ -29,3 +29,9 @@ The first four entries are product identifiers. Availability depends on the curr
 - Strictly flat snake_case schemas reduce a 12-step Clay table from 12,000 Actions down to 1,000 Actions per 1,000 rows (91.7% savings).
 - Verified Apify Cloud platform cost: $0.0114 per 1,000 rows for WealthPulse V3.5 and $0.0455 per 1,000 domains for Trust Center Audit, with zero residential proxies.
 - Limited permissions enabled across all Actors for MCP compatibility and x402 agentic readiness.
+
+## Wave 3 Flagship Engines & Live Verification
+- [US UCC-1 Secured Loan, Equipment Lien & Refinance Leads](https://apify.com/sayod111/us-ucc-1-secured-loan-leads): Multi-state keyless Colorado + Connecticut commercial UCC-1 liens with masked filing-agent flags and lapse countdowns ($15/1K, 22 flat columns).
+- [Biotech & MedTech Grants, Clinical Trials & FDA 510k](https://apify.com/sayod111/us-biotech-grants-trials-fda510k): Unified keyless 3-agency life-sciences API joining NIH RePORTER v2, ClinicalTrials.gov v2, and openFDA 510(k) ($15/1K, 22 flat columns).
+- Live MCP Health Monitor (mcptry): https://mcptry.com/servers/io.github.sayod111/sayod111-intelligence-mcp
+- Merged Remote MCP Directory Entry: https://github.com/punkpeye/awesome-remote-mcp-servers/pull/5881
